@@ -7,10 +7,10 @@ Data files of different kinds to be used in my lectures
 from edurel.utils.misc import csv_to_parquet
 
 csv_to_parquet(
-    in_path="/home/du/data/bubahn/csv",
+    in_path="/.../csv",
     fn="*",
     spec="header=true",
-    out_path="/home/du/data/bubahn/parquet",
+    out_path="/.../parquet",
     verbose=True
 )
 ```
